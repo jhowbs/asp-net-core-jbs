@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>asp_net_core_jbs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/1a24beab-65c2-4771-af18-8591ad28757a/resourceGroups/AzureResourceGroup/providers/microsoft.insights/components/asp-net-core-jbs</ApplicationInsightsResourceId>
+    <UserSecretsId>17efdf6e-b3cc-4860-9e1a-0e5797663fc3</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
