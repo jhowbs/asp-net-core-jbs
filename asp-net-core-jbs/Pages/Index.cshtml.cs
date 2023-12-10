@@ -8,7 +8,7 @@ namespace asp_net_core_jbs.Pages
         private readonly ILogger<IndexModel> _logger;
         private readonly IConfiguration _configuration;
 
-        public IndexModel ( ILogger<IndexModel> logger, IConfiguration configuration   I)
+        public IndexModel ( ILogger<IndexModel> logger, IConfiguration configuration)
         {
             _logger = logger;
             _configuration = configuration;
